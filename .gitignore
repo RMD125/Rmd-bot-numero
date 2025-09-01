@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Baileys session data
+auth_info_baileys/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
