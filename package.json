@@ -1,0 +1,29 @@
+{
+  "name": "rmd-bot-mobile",
+  "version": "4.0.0",
+  "description": "WhatsApp Bot avec connexion mobile développé par RMD125",
+  "main": "bot.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "express": "^4.18.2",
+    "pino": "^8.19.0",
+    "axios": "^1.6.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "rmd125",
+    "mobile"
+  ],
+  "author": "RMD125",
+  "license": "MIT"
+}
